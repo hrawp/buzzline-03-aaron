@@ -1,0 +1,188 @@
+2025-09-08 21:10:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-08 21:10:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-08 21:10:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-08 21:10:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-08 21:10:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob'}
+2025-09-08 21:10:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-08 21:10:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-08 21:10:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-08 21:10:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-09-08 21:10:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-08 21:10:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-08 21:10:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-08 21:10:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie'}
+2025-09-08 21:10:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-09-08 21:10:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-08 21:10:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-08 21:10:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice'}
+2025-09-08 21:10:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-08 21:10:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-08 21:10:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-08 21:10:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-08 21:10:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-08 21:10:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice'}
+2025-09-08 21:10:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie'}
+2025-09-08 21:10:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-08 21:10:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-08 21:10:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-08 21:10:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-08 21:10:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob'}
+2025-09-08 21:10:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-08 21:10:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob'}
+2025-09-08 21:11:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-08 21:11:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-09-08 21:11:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-08 21:11:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-08 21:11:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-08 21:11:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-08 21:11:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-08 21:11:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-08 21:11:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob'}
+2025-09-08 21:11:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-08 21:11:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-08 21:11:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-08 21:11:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-08 21:11:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana'}
+2025-09-08 21:11:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob'}
+2025-09-08 21:11:13 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-08 21:11:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-08 21:11:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve'}
+2025-09-08 21:11:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-08 21:11:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-08 21:11:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-08 21:11:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-08 21:11:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-09-08 21:11:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Bob'}
+2025-09-08 21:11:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-08 21:11:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-08 21:11:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-08 21:11:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-08 21:11:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-08 21:11:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-08 21:11:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-08 21:11:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-09-08 21:11:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-08 21:11:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-08 21:11:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-08 21:11:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-08 21:11:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-08 21:11:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-08 21:11:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-08 21:11:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-08 21:11:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-08 21:11:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-08 21:11:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-08 21:11:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-08 21:11:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Charlie'}
+2025-09-08 21:11:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-08 21:11:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-08 21:11:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-08 21:11:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-08 21:11:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-08 21:11:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-08 21:11:47 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-08 21:11:47 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-08 21:11:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-08 21:11:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice'}
+2025-09-08 21:11:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-08 21:11:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-08 21:11:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-08 21:11:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-09-08 21:11:53 | WARNING | Producer interrupted by user.
+2025-09-08 21:11:53 | INFO | Kafka producer closed.
+2025-09-08 21:11:53 | INFO | END producer.
+2025-09-10 20:46:07 | INFO | Logging to file: logs/project_log.log
+2025-09-10 20:46:07 | INFO | Log sanitization enabled, personal info removed
+2025-09-10 20:46:07 | INFO | Project root: PROJECT_ROOT
+2025-09-10 20:46:07 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-10 20:46:07 | INFO | Data file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-10 20:46:07 | INFO | START producer.
+2025-09-10 20:46:07 | INFO | Kafka broker address: localhost:9092
+2025-09-10 20:46:07 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'GV_T1CxXQX-zXKvRSfJcLw', 'controller_id': 1}
+2025-09-10 20:46:07 | INFO | Kafka topic: smoker_csv
+2025-09-10 20:46:07 | INFO | Message interval: 5 seconds
+2025-09-10 20:46:07 | INFO | Kafka broker address: localhost:9092
+2025-09-10 20:46:07 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-10 20:46:08 | INFO | Kafka producer successfully created.
+2025-09-10 20:46:08 | INFO | Kafka broker address: localhost:9092
+2025-09-10 20:46:08 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-10 20:46:08 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-10 20:46:08 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-10 20:46:08 | INFO | Opening data file in read mode: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-10 20:46:08 | INFO | Reading data from file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-10 20:46:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:08.646699', 'temperature': 70.4}
+2025-09-10 20:46:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:13.702605', 'temperature': 70.8}
+2025-09-10 20:46:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:18.704109', 'temperature': 71.2}
+2025-09-10 20:46:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:23.706234', 'temperature': 71.6}
+2025-09-10 20:46:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:28.707574', 'temperature': 72.0}
+2025-09-10 20:46:34 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:34.219395', 'temperature': 72.4}
+2025-09-10 20:46:39 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:39.220985', 'temperature': 72.8}
+2025-09-10 20:46:44 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:44.223635', 'temperature': 73.2}
+2025-09-10 20:46:49 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:49.224896', 'temperature': 73.6}
+2025-09-10 20:46:54 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:54.227716', 'temperature': 74.0}
+2025-09-10 20:46:57 | INFO | Logging to file: logs/project_log.log
+2025-09-10 20:46:57 | INFO | Log sanitization enabled, personal info removed
+2025-09-10 20:46:57 | INFO | START consumer.
+2025-09-10 20:46:57 | INFO | Kafka topic: smoker_csv
+2025-09-10 20:46:57 | INFO | Kafka consumer group id: smoker_group
+2025-09-10 20:46:57 | INFO | Rolling window size: 10
+2025-09-10 20:46:57 | INFO | Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-10 20:46:57 | INFO | Rolling window size: 10
+2025-09-10 20:46:57 | INFO | Kafka broker address: localhost:9092
+2025-09-10 20:46:57 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-10 20:46:57 | INFO | Kafka consumer created successfully.
+2025-09-10 20:46:57 | INFO | Polling messages from topic 'smoker_csv'...
+2025-09-10 20:46:59 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:46:59.229548', 'temperature': 74.4}
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:08.646699', 'temperature': 70.4}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:13.702605', 'temperature': 70.8}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:18.704109', 'temperature': 71.2}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:23.706234', 'temperature': 71.6}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:28.707574', 'temperature': 72.0}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:34.219395', 'temperature': 72.4}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:39.220985', 'temperature': 72.8}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:44.223635', 'temperature': 73.2}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:49.224896', 'temperature': 73.6}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:54.227716', 'temperature': 74.0}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Max stall temperature range: 0.2 F
+2025-09-10 20:47:00 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:46:59.229548', 'temperature': 74.4}
+2025-09-10 20:47:00 | INFO | Rolling window size: 10
+2025-09-10 20:47:00 | INFO | Max stall temperature range: 0.2 F
+2025-09-10 20:47:04 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:47:04.231133', 'temperature': 74.8}
+2025-09-10 20:47:04 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:47:04.231133', 'temperature': 74.8}
+2025-09-10 20:47:04 | INFO | Rolling window size: 10
+2025-09-10 20:47:04 | INFO | Max stall temperature range: 0.2 F
+2025-09-10 20:47:09 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:47:09.777495', 'temperature': 75.2}
+2025-09-10 20:47:09 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:47:09.777495', 'temperature': 75.2}
+2025-09-10 20:47:09 | INFO | Rolling window size: 10
+2025-09-10 20:47:09 | INFO | Max stall temperature range: 0.2 F
+2025-09-10 20:47:14 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:47:14.778851', 'temperature': 75.6}
+2025-09-10 20:47:14 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:47:14.778851', 'temperature': 75.6}
+2025-09-10 20:47:14 | INFO | Rolling window size: 10
+2025-09-10 20:47:14 | INFO | Max stall temperature range: 0.2 F
+2025-09-10 20:47:19 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:47:19.781829', 'temperature': 76.0}
+2025-09-10 20:47:19 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:47:19.781829', 'temperature': 76.0}
+2025-09-10 20:47:19 | INFO | Rolling window size: 10
+2025-09-10 20:47:19 | INFO | Max stall temperature range: 0.2 F
+2025-09-10 20:47:24 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:47:24.785583', 'temperature': 76.4}
+2025-09-10 20:47:24 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:47:24.785583', 'temperature': 76.4}
+2025-09-10 20:47:24 | INFO | Rolling window size: 10
+2025-09-10 20:47:24 | INFO | Max stall temperature range: 0.2 F
+2025-09-10 20:47:29 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-11T01:47:29.788238', 'temperature': 76.8}
+2025-09-10 20:47:29 | INFO | Processed JSON message: {'timestamp': '2025-09-11T01:47:29.788238', 'temperature': 76.8}
+2025-09-10 20:47:29 | INFO | Rolling window size: 10
+2025-09-10 20:47:29 | INFO | Max stall temperature range: 0.2 F
+2025-09-10 20:47:32 | WARNING | Producer interrupted by user.
+2025-09-10 20:47:32 | INFO | Kafka producer closed.
+2025-09-10 20:47:32 | INFO | END producer.
+2025-09-10 20:47:34 | WARNING | Consumer interrupted by user.
+2025-09-10 20:47:34 | INFO | Kafka consumer for topic 'smoker_csv' closed.
