@@ -124,13 +124,37 @@ def process_message(message: str, rolling_window: deque, window_size: int) -> No
         data: dict = json.loads(message)
         temperature = data.get("temperature")
         timestamp = data.get("timestamp")
+        heating_element_temp = data.get("heating element temperature")
         logger.info(f"Processed JSON message: {data}")
 
-        # Ensure the required fields are present
+        # --- Begin: Heating element alert logic ---
+
+        # Try to convert temperatures to float
+        try:
+            temperature = float(temperature)
+            heating_element_temp = float(heating_element_temp)
+        except (TypeError, ValueError):
+            temperature = None
+            heating_element_temp = None
+
+        # Check if alert condition is met
+        if (
+            temperature is not None and
+            heating_element_temp is not None and
+            (heating_element_temp - temperature) < 355
+        ):
+            logger.warning(
+                f"⚠️ ALERT: Increase heating element temperature — "
+                f"Temp: {temperature}, Heating Element Temp: {heating_element_temp}, "
+                f"Diff: {heating_element_temp - temperature}"
+            )
+
+
+        # Notify to Increase Heating Element Temperature
         if temperature is None or timestamp is None:
             logger.error(f"Invalid message format: {message}")
             return
-
+        
         # Append the temperature reading to the rolling window
         rolling_window.append(temperature)
 

@@ -89,7 +89,7 @@ def generate_messages(file_path: pathlib.Path):
     Yields:
         str: CSV row formatted as a string.
     """
-    heating_element_temp = 380.0  # Starting temperature
+    heating_element_temp = 460.0  # Starting temperature
 
     while True:
         try:
@@ -108,8 +108,8 @@ def generate_messages(file_path: pathlib.Path):
                     delta = random.choice([-5, 8, -7, 5])
                     heating_element_temp += delta
 
-                    # Clamp between 350 and 430
-                    heating_element_temp = max(350.0, min(430.0, heating_element_temp))
+                    # Clamp between 420 and 500
+                    heating_element_temp = max(420.0, min(500.0, heating_element_temp))
 
                     # Round to 2 decimals for realism
                     heating_element_temp = round(heating_element_temp, 2)

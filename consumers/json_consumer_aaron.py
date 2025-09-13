@@ -102,16 +102,16 @@ def process_message(message: str) -> None:
 
         # Check for city and age
         city = str(message_dict.get("city", "")).strip().upper()
-        # age = message_dict.get("age")
+    
 
-        # Try to convert age to a number
+        # Convert age to a number
         raw_age = message_dict.get("age")
         try:
             age = float(raw_age)  # or int(raw_age) if you expect only integers
         except (TypeError, ValueError):
             age = None  # conversion failed     
 
-        # Apply your logic
+        # Alert logic
         if city == "DETROIT" and age and 40 <= age <= 49:
             match_count["detroit_age_40s"] = match_count.get("detroit_age_40s", 0) + 1
 
