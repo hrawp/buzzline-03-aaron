@@ -1,11 +1,22 @@
 # buzzline-03-aaron
 
+---------------------------------------------------------------------------------------------------------
+
 The changes to this program were as follows:
 
-### For the JSON producer:  I added to the JSON messages "city" and "age".
-### For the JSON consumer:  I added an alert that if the city was Detroit and the age was between 40 and 49 the alert would be displayed.
-### For the CSV producer:   I added a heating element temperature that ranged from 420 to 500 degrees.  It was also adjusted up and down by a random selection of -5, 8, -7, 5 degrees.
-### For the CSV consumer:   I added an alert that if the difference between the heating element temperature and airspace temperature was < 355 degrees the heating element should be turned up.
+### For the JSON producer:  
+I added to the JSON messages "city" and "age".
+### For the JSON consumer:  
+I added an alert that if the city was Detroit and the age was between 40 and 49 the alert would be displayed.
+### For the CSV producer:   
+I added a heating element temperature that ranged from 420 to 500 degrees.  It was also adjusted up and down by a random selection of -5, 8, -7, 5 degrees.
+### For the CSV consumer:   
+I added an alert that if the difference between the heating element temperature and airspace temperature was < 355 degrees the heating element should be turned up.
+
+
+----------------------------------------------------------------------------------------------------------
+
+
 
 Streaming data does not have to be simple text.
 Many of us are familiar with streaming video content and audio (e.g. music) files.
