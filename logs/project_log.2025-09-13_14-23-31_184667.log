@@ -1,0 +1,68 @@
+2025-09-13 14:23:31 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'BOSTON', 'age': '52'}
+2025-09-13 14:23:31 | INFO | Message received from author: Alice
+2025-09-13 14:23:31 | INFO | Updated author counts: {'Eve': 6, 'Alice': 12, 'Charlie': 6, 'Diana': 13, 'Bob': 6}
+2025-09-13 14:23:32 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'CLEVELAND', 'age': '46'}
+2025-09-13 14:23:32 | INFO | Message received from author: Diana
+2025-09-13 14:23:32 | INFO | Updated author counts: {'Eve': 6, 'Alice': 12, 'Charlie': 6, 'Diana': 14, 'Bob': 6}
+2025-09-13 14:23:33 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 14:23:33 | INFO | Message received from author: Alice
+2025-09-13 14:23:33 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 14, 'Bob': 6}
+2025-09-13 14:23:34 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'BOSTON', 'age': '52'}
+2025-09-13 14:23:34 | INFO | Message received from author: Bob
+2025-09-13 14:23:34 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 14, 'Bob': 7}
+2025-09-13 14:23:35 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Bob', 'city': 'DETROIT', 'age': '55'}
+2025-09-13 14:23:35 | INFO | Message received from author: Bob
+2025-09-13 14:23:35 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 14, 'Bob': 8}
+2025-09-13 14:23:36 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '46'}
+2025-09-13 14:23:36 | INFO | Message received from author: Diana
+2025-09-13 14:23:36 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 15, 'Bob': 8}
+2025-09-13 14:23:37 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob', 'city': 'PORTLAND', 'age': '55'}
+2025-09-13 14:23:37 | INFO | Message received from author: Bob
+2025-09-13 14:23:37 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 15, 'Bob': 9}
+2025-09-13 14:23:40 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 14:23:40 | INFO | Message received from author: Eve
+2025-09-13 14:23:40 | INFO | Updated author counts: {'Eve': 7, 'Alice': 13, 'Charlie': 6, 'Diana': 15, 'Bob': 9}
+2025-09-13 14:23:41 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Bob', 'city': 'CHICAGO', 'age': '37'}
+2025-09-13 14:23:41 | INFO | Message received from author: Bob
+2025-09-13 14:23:41 | INFO | Updated author counts: {'Eve': 7, 'Alice': 13, 'Charlie': 6, 'Diana': 15, 'Bob': 10}
+2025-09-13 14:23:42 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '48'}
+2025-09-13 14:23:42 | INFO | Message received from author: Alice
+2025-09-13 14:23:42 | INFO | Updated author counts: {'Eve': 7, 'Alice': 14, 'Charlie': 6, 'Diana': 15, 'Bob': 10}
+2025-09-13 14:23:43 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Eve', 'city': 'NEW YORK', 'age': '41'}
+2025-09-13 14:23:43 | INFO | Message received from author: Eve
+2025-09-13 14:23:43 | INFO | Updated author counts: {'Eve': 8, 'Alice': 14, 'Charlie': 6, 'Diana': 15, 'Bob': 10}
+2025-09-13 14:23:44 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 14:23:44 | INFO | Message received from author: Alice
+2025-09-13 14:23:44 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 6, 'Diana': 15, 'Bob': 10}
+2025-09-13 14:23:45 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'BOSTON', 'age': '46'}
+2025-09-13 14:23:45 | INFO | Message received from author: Bob
+2025-09-13 14:23:45 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 6, 'Diana': 15, 'Bob': 11}
+2025-09-13 14:23:46 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie', 'city': 'CLEVELAND', 'age': '52'}
+2025-09-13 14:23:46 | INFO | Message received from author: Charlie
+2025-09-13 14:23:46 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 7, 'Diana': 15, 'Bob': 11}
+2025-09-13 14:23:47 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana', 'city': 'NEW YORK', 'age': '41'}
+2025-09-13 14:23:47 | INFO | Message received from author: Diana
+2025-09-13 14:23:47 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 7, 'Diana': 16, 'Bob': 11}
+2025-09-13 14:23:48 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Bob', 'city': 'DETROIT', 'age': '46'}
+2025-09-13 14:23:48 | INFO | Message received from author: Bob
+2025-09-13 14:23:48 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 7, 'Diana': 16, 'Bob': 12}
+2025-09-13 14:23:48 | WARNING | 🚨 ALERT: Match found — City: DETROIT, Age: 46.0 (Total Matches: 2)
+2025-09-13 14:23:49 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'DETROIT', 'age': '46'}
+2025-09-13 14:23:49 | INFO | Message received from author: Alice
+2025-09-13 14:23:49 | INFO | Updated author counts: {'Eve': 8, 'Alice': 16, 'Charlie': 7, 'Diana': 16, 'Bob': 12}
+2025-09-13 14:23:49 | WARNING | 🚨 ALERT: Match found — City: DETROIT, Age: 46.0 (Total Matches: 3)
+2025-09-13 14:23:50 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '52'}
+2025-09-13 14:23:50 | INFO | Message received from author: Alice
+2025-09-13 14:23:50 | INFO | Updated author counts: {'Eve': 8, 'Alice': 17, 'Charlie': 7, 'Diana': 16, 'Bob': 12}
+2025-09-13 14:23:51 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana', 'city': 'CLEVELAND', 'age': '33'}
+2025-09-13 14:23:51 | INFO | Message received from author: Diana
+2025-09-13 14:23:51 | INFO | Updated author counts: {'Eve': 8, 'Alice': 17, 'Charlie': 7, 'Diana': 17, 'Bob': 12}
+2025-09-13 14:23:52 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice', 'city': 'CHICAGO', 'age': '52'}
+2025-09-13 14:23:52 | INFO | Message received from author: Alice
+2025-09-13 14:23:52 | INFO | Updated author counts: {'Eve': 8, 'Alice': 18, 'Charlie': 7, 'Diana': 17, 'Bob': 12}
+2025-09-13 14:23:53 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '37'}
+2025-09-13 14:23:53 | INFO | Message received from author: Diana
+2025-09-13 14:23:53 | INFO | Updated author counts: {'Eve': 8, 'Alice': 18, 'Charlie': 7, 'Diana': 18, 'Bob': 12}
+2025-09-13 14:23:53 | WARNING | Consumer interrupted by user.
+2025-09-13 14:23:53 | INFO | Kafka consumer for topic 'buzzline_json' closed.
+2025-09-13 14:23:53 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.

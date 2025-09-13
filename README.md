@@ -1,4 +1,11 @@
-# buzzline-03-case
+# buzzline-03-aaron
+
+The changes to this program were as follows:
+
+### For the JSON producer:  I added to the JSON messages "city" and "age".
+### For the JSON consumer:  I added an alert that if the city was Detroit and the age was between 40 and 49 the alert would be displayed.
+### For the CSV producer:   I added a heating element temperature that ranged from 420 to 500 degrees.  It was also adjusted up and down by a random selection of -5, 8, -7, 5 degrees.
+### For the CSV consumer:   I added an alert that if the difference between the heating element temperature and airspace temperature was < 355 degrees the heating element should be turned up.
 
 Streaming data does not have to be simple text.
 Many of us are familiar with streaming video content and audio (e.g. music) files.
@@ -118,14 +125,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.json_producer_case
+py -m producers.json_producer_aaron
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m producers.json_producer_case
+python3 -m producers.json_producer_aaron
 ```
 
 What did we name the topic used with JSON data?
@@ -142,14 +149,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.json_consumer_case
+py -m consumers.json_consumer_aaron
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.json_consumer_case
+python3 -m consumers.json_consumer_aaron
 ```
 
 What did we name the topic used with JSON data?
@@ -175,7 +182,7 @@ Hint: Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.csv_producer_case
+py -m producers.csv_producer_aaron
 ```
 
 ## Task 6. Start a Kafka CSV Consumer
@@ -196,7 +203,7 @@ Hint: Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.csv_consumer_case
+py -m consumers.csv_consumer_aaron
 ```
 
 ---

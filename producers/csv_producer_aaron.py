@@ -104,7 +104,7 @@ def generate_messages(file_path: pathlib.Path):
                         logger.error(f"Missing 'temperature' column in row: {row}")
                         continue
 
-                    # Apply ±5°C change
+                    # Apply ±8°F change
                     delta = random.choice([-5, 8, -7, 5])
                     heating_element_temp += delta
 
