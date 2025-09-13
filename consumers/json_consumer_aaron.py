@@ -53,6 +53,7 @@ def get_kafka_consumer_group_id() -> str:
     logger.info(f"Kafka consumer group id: {group_id}")
     return group_id
 
+match_count = {}
 
 #####################################
 # Set up Data Store to hold author counts
@@ -98,6 +99,27 @@ def process_message(message: str) -> None:
 
         # Log the updated counts
         logger.info(f"Updated author counts: {dict(author_counts)}")
+
+        # Check for city and age
+        city = str(message_dict.get("city", "")).strip().upper()
+        # age = message_dict.get("age")
+
+        # Try to convert age to a number
+        raw_age = message_dict.get("age")
+        try:
+            age = float(raw_age)  # or int(raw_age) if you expect only integers
+        except (TypeError, ValueError):
+            age = None  # conversion failed     
+
+        # Apply your logic
+        if city == "DETROIT" and age and 40 <= age <= 49:
+            match_count["detroit_age_40s"] = match_count.get("detroit_age_40s", 0) + 1
+
+            logger.warning(
+                f"🚨 ALERT: Match found — City: DETROIT, Age: {age} (Total Matches: {match_count['detroit_age_40s']})"
+            )
+        else:
+            logger.debug(f"No alert triggered. City: {city}, Age: {raw_age} (parsed: {age})")
 
     except json.JSONDecodeError:
         logger.error(f"Invalid JSON message: {message}")

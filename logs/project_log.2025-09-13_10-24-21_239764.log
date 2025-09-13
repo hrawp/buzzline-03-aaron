@@ -1,0 +1,436 @@
+2025-09-13 10:24:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'city': 'NEW YORK', 'age': '37'}
+2025-09-13 10:24:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'city': 'CHICAGO', 'age': '37'}
+2025-09-13 10:24:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana', 'city': 'NEW YORK', 'age': '37'}
+2025-09-13 10:24:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'city': 'NEW YORK', 'age': '55'}
+2025-09-13 10:24:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Charlie', 'city': 'CHICAGO', 'age': '52'}
+2025-09-13 10:24:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 10:24:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'NEW YORK', 'age': '33'}
+2025-09-13 10:24:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '48'}
+2025-09-13 10:24:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'DETROIT', 'age': '46'}
+2025-09-13 10:24:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '41'}
+2025-09-13 10:24:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'city': 'DETROIT', 'age': '55'}
+2025-09-13 10:24:32 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-13 10:24:32 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-13 10:24:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'city': 'CHICAGO', 'age': '46'}
+2025-09-13 10:24:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice', 'city': 'HUSTON', 'age': '37'}
+2025-09-13 10:24:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'city': 'HUSTON', 'age': '48'}
+2025-09-13 10:24:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'PORTLAND', 'age': '46'}
+2025-09-13 10:24:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '55'}
+2025-09-13 10:24:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'city': 'HUSTON', 'age': '41'}
+2025-09-13 10:24:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'city': 'CHICAGO', 'age': '52'}
+2025-09-13 10:24:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'DETROIT', 'age': '52'}
+2025-09-13 10:24:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'city': 'PORTLAND', 'age': '55'}
+2025-09-13 10:24:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'city': 'DETROIT', 'age': '33'}
+2025-09-13 10:24:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'NEW YORK', 'age': '41'}
+2025-09-13 10:24:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'city': 'NEW YORK', 'age': '52'}
+2025-09-13 10:24:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie', 'city': 'BOSTON', 'age': '37'}
+2025-09-13 10:24:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 10:24:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'city': 'HUSTON', 'age': '41'}
+2025-09-13 10:24:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'DETROIT', 'age': '52'}
+2025-09-13 10:24:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'city': 'DETROIT', 'age': '52'}
+2025-09-13 10:24:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '48'}
+2025-09-13 10:24:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'city': 'CHICAGO', 'age': '41'}
+2025-09-13 10:24:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'NEW YORK', 'age': '37'}
+2025-09-13 10:24:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'city': 'PORTLAND', 'age': '37'}
+2025-09-13 10:24:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'city': 'PORTLAND', 'age': '52'}
+2025-09-13 10:24:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'city': 'CHICAGO', 'age': '48'}
+2025-09-13 10:24:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 10:24:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 10:24:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'BOSTON', 'age': '37'}
+2025-09-13 10:24:57 | WARNING | Producer interrupted by user.
+2025-09-13 10:24:57 | INFO | Kafka producer closed.
+2025-09-13 10:24:57 | INFO | END producer.
+2025-09-13 11:29:25 | INFO | Logging to file: logs/project_log.log
+2025-09-13 11:29:25 | INFO | Log sanitization enabled, personal info removed
+2025-09-13 11:29:25 | INFO | Project root: PROJECT_ROOT
+2025-09-13 11:29:25 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-13 11:29:25 | INFO | Data file: PROJECT_ROOT/data/buzz.json
+2025-09-13 11:29:25 | INFO | START producer.
+2025-09-13 11:29:25 | INFO | Kafka broker address: localhost:9092
+2025-09-13 11:29:25 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Qrh-d0XGRZG10zs9dkkQFQ', 'controller_id': 1}
+2025-09-13 11:29:25 | INFO | Kafka topic: buzzline_json
+2025-09-13 11:29:25 | INFO | Message interval: 1 seconds
+2025-09-13 11:29:25 | INFO | Kafka broker address: localhost:9092
+2025-09-13 11:29:25 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-13 11:29:25 | INFO | Kafka producer successfully created.
+2025-09-13 11:29:25 | INFO | Kafka broker address: localhost:9092
+2025-09-13 11:29:26 | INFO | Topic 'buzzline_json' created successfully.
+2025-09-13 11:29:26 | INFO | Kafka topic 'buzzline_json' is ready.
+2025-09-13 11:29:26 | INFO | Starting message production to topic 'buzzline_json'...
+2025-09-13 11:29:26 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-13 11:29:26 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-13 11:29:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'city': 'HUSTON', 'age': '33'}
+2025-09-13 11:29:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice', 'city': 'DETROIT', 'age': '33'}
+2025-09-13 11:29:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'city': 'PORTLAND', 'age': '33'}
+2025-09-13 11:29:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '55'}
+2025-09-13 11:29:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '48'}
+2025-09-13 11:29:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '41'}
+2025-09-13 11:29:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'city': 'CLEVELAND', 'age': '55'}
+2025-09-13 11:29:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 11:29:33 | INFO | Logging to file: logs/project_log.log
+2025-09-13 11:29:33 | INFO | Log sanitization enabled, personal info removed
+2025-09-13 11:29:33 | INFO | START consumer.
+2025-09-13 11:29:33 | INFO | Kafka topic: buzzline_json
+2025-09-13 11:29:33 | INFO | Kafka consumer group id: buzz_group
+2025-09-13 11:29:33 | INFO | Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-09-13 11:29:33 | INFO | Kafka broker address: localhost:9092
+2025-09-13 11:29:33 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-09-13 11:29:34 | INFO | Kafka consumer created successfully.
+2025-09-13 11:29:34 | INFO | Polling messages from topic 'buzzline_json'...
+2025-09-13 11:29:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'city': 'BOSTON', 'age': '52'}
+2025-09-13 11:29:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'city': 'DETROIT', 'age': '33'}
+2025-09-13 11:29:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'NEW YORK', 'age': '46'}
+2025-09-13 11:29:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'city': 'BOSTON', 'age': '37'}
+2025-09-13 11:29:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie', 'city': 'HUSTON', 'age': '55'}
+2025-09-13 11:29:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'DETROIT', 'age': '48'}
+2025-09-13 11:29:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'city': 'BOSTON', 'age': '33'}
+2025-09-13 11:29:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:29:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'city': 'HUSTON', 'age': '55'}
+2025-09-13 11:29:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '55'}
+2025-09-13 11:29:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'city': 'CHICAGO', 'age': '46'}
+2025-09-13 11:29:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'CLEVELAND', 'age': '41'}
+2025-09-13 11:29:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'city': 'BOSTON', 'age': '33'}
+2025-09-13 11:29:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'city': 'CLEVELAND', 'age': '52'}
+2025-09-13 11:29:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'city': 'HUSTON', 'age': '41'}
+2025-09-13 11:29:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '33'}
+2025-09-13 11:29:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '37'}
+2025-09-13 11:29:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '46'}
+2025-09-13 11:29:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'city': 'BOSTON', 'age': '37'}
+2025-09-13 11:29:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '52'}
+2025-09-13 11:29:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana', 'city': 'NEW YORK', 'age': '46'}
+2025-09-13 11:29:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '52'}
+2025-09-13 11:29:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie', 'city': 'CHICAGO', 'age': '33'}
+2025-09-13 11:29:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 11:30:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice', 'city': 'HUSTON', 'age': '55'}
+2025-09-13 11:30:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '52'}
+2025-09-13 11:30:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'city': 'HUSTON', 'age': '41'}
+2025-09-13 11:30:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '52'}
+2025-09-13 11:30:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'city': 'HUSTON', 'age': '48'}
+2025-09-13 11:30:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice', 'city': 'CHICAGO', 'age': '41'}
+2025-09-13 11:30:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '48'}
+2025-09-13 11:30:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'CHICAGO', 'age': '33'}
+2025-09-13 11:30:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'DETROIT', 'age': '52'}
+2025-09-13 11:30:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '55'}
+2025-09-13 11:30:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'DETROIT', 'age': '48'}
+2025-09-13 11:30:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob', 'city': 'CHICAGO', 'age': '33'}
+2025-09-13 11:30:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'HUSTON', 'age': '37'}
+2025-09-13 11:30:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'city': 'BOSTON', 'age': '33'}
+2025-09-13 11:30:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'city': 'PORTLAND', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve', 'city': 'BOSTON', 'age': '41'}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve', 'city': 'HUSTON', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Eve
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 1}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Alice', 'city': 'DETROIT', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 1, 'Alice': 1}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Charlie', 'city': 'PORTLAND', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Charlie
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 1, 'Alice': 1, 'Charlie': 1}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '55'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 1, 'Alice': 2, 'Charlie': 1}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '48'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 1, 'Alice': 2, 'Charlie': 1, 'Diana': 1}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '41'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 1, 'Alice': 3, 'Charlie': 1, 'Diana': 1}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana', 'city': 'CLEVELAND', 'age': '55'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 1, 'Alice': 3, 'Charlie': 1, 'Diana': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 11:30:22 | INFO | Message received from author: Eve
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 2, 'Alice': 3, 'Charlie': 1, 'Diana': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve', 'city': 'BOSTON', 'age': '52'}
+2025-09-13 11:30:22 | INFO | Message received from author: Eve
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 3, 'Alice': 3, 'Charlie': 1, 'Diana': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice', 'city': 'DETROIT', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 3, 'Alice': 4, 'Charlie': 1, 'Diana': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'NEW YORK', 'age': '46'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 3, 'Alice': 4, 'Charlie': 1, 'Diana': 3}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Diana', 'city': 'BOSTON', 'age': '37'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 3, 'Alice': 4, 'Charlie': 1, 'Diana': 4}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Charlie', 'city': 'HUSTON', 'age': '55'}
+2025-09-13 11:30:22 | INFO | Message received from author: Charlie
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 3, 'Alice': 4, 'Charlie': 2, 'Diana': 4}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'DETROIT', 'age': '48'}
+2025-09-13 11:30:22 | INFO | Message received from author: Bob
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 3, 'Alice': 4, 'Charlie': 2, 'Diana': 4, 'Bob': 1}
+2025-09-13 11:30:22 | ERROR | Error processing message: name 'match_count' is not defined
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob', 'city': 'BOSTON', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Bob
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 3, 'Alice': 4, 'Charlie': 2, 'Diana': 4, 'Bob': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:22 | INFO | Message received from author: Eve
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 4, 'Alice': 4, 'Charlie': 2, 'Diana': 4, 'Bob': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve', 'city': 'HUSTON', 'age': '55'}
+2025-09-13 11:30:22 | INFO | Message received from author: Eve
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 5, 'Alice': 4, 'Charlie': 2, 'Diana': 4, 'Bob': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '55'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 5, 'Alice': 5, 'Charlie': 2, 'Diana': 4, 'Bob': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice', 'city': 'CHICAGO', 'age': '46'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 5, 'Alice': 6, 'Charlie': 2, 'Diana': 4, 'Bob': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'CLEVELAND', 'age': '41'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 5, 'Alice': 6, 'Charlie': 2, 'Diana': 5, 'Bob': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve', 'city': 'BOSTON', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Eve
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 6, 'Charlie': 2, 'Diana': 5, 'Bob': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie', 'city': 'CLEVELAND', 'age': '52'}
+2025-09-13 11:30:22 | INFO | Message received from author: Charlie
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 6, 'Charlie': 3, 'Diana': 5, 'Bob': 2}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob', 'city': 'HUSTON', 'age': '41'}
+2025-09-13 11:30:22 | INFO | Message received from author: Bob
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 6, 'Charlie': 3, 'Diana': 5, 'Bob': 3}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 7, 'Charlie': 3, 'Diana': 5, 'Bob': 3}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '37'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 7, 'Charlie': 3, 'Diana': 6, 'Bob': 3}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '46'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 7, 'Charlie': 3, 'Diana': 7, 'Bob': 3}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Bob', 'city': 'BOSTON', 'age': '37'}
+2025-09-13 11:30:22 | INFO | Message received from author: Bob
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 7, 'Charlie': 3, 'Diana': 7, 'Bob': 4}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '52'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 7, 'Charlie': 3, 'Diana': 8, 'Bob': 4}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Diana', 'city': 'NEW YORK', 'age': '46'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 7, 'Charlie': 3, 'Diana': 9, 'Bob': 4}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '52'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 8, 'Charlie': 3, 'Diana': 9, 'Bob': 4}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Charlie', 'city': 'CHICAGO', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Charlie
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 8, 'Charlie': 4, 'Diana': 9, 'Bob': 4}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Diana', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 8, 'Charlie': 4, 'Diana': 10, 'Bob': 4}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:22 | INFO | Message received from author: Bob
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 8, 'Charlie': 4, 'Diana': 10, 'Bob': 5}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 8, 'Charlie': 4, 'Diana': 11, 'Bob': 5}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Alice', 'city': 'HUSTON', 'age': '55'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 9, 'Charlie': 4, 'Diana': 11, 'Bob': 5}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '52'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 10, 'Charlie': 4, 'Diana': 11, 'Bob': 5}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:22 | INFO | Message received from author: Charlie
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 10, 'Charlie': 5, 'Diana': 11, 'Bob': 5}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'city': 'HUSTON', 'age': '41'}
+2025-09-13 11:30:22 | INFO | Message received from author: Bob
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 10, 'Charlie': 5, 'Diana': 11, 'Bob': 6}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '52'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 10, 'Charlie': 5, 'Diana': 12, 'Bob': 6}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana', 'city': 'HUSTON', 'age': '48'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 10, 'Charlie': 5, 'Diana': 13, 'Bob': 6}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Alice', 'city': 'CHICAGO', 'age': '41'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 11, 'Charlie': 5, 'Diana': 13, 'Bob': 6}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '48'}
+2025-09-13 11:30:22 | INFO | Message received from author: Charlie
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 11, 'Charlie': 6, 'Diana': 13, 'Bob': 6}
+2025-09-13 11:30:22 | ERROR | Error processing message: name 'match_count' is not defined
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'CHICAGO', 'age': '33'}
+2025-09-13 11:30:22 | INFO | Message received from author: Alice
+2025-09-13 11:30:22 | INFO | Updated author counts: {'Eve': 6, 'Alice': 12, 'Charlie': 6, 'Diana': 13, 'Bob': 6}
+2025-09-13 11:30:22 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'DETROIT', 'age': '52'}
+2025-09-13 11:30:22 | INFO | Message received from author: Diana
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 6, 'Alice': 12, 'Charlie': 6, 'Diana': 14, 'Bob': 6}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '55'}
+2025-09-13 11:30:23 | INFO | Message received from author: Alice
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 14, 'Bob': 6}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'DETROIT', 'age': '48'}
+2025-09-13 11:30:23 | INFO | Message received from author: Bob
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 14, 'Bob': 7}
+2025-09-13 11:30:23 | ERROR | Error processing message: name 'match_count' is not defined
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Bob', 'city': 'CHICAGO', 'age': '33'}
+2025-09-13 11:30:23 | INFO | Message received from author: Bob
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 14, 'Bob': 8}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'HUSTON', 'age': '37'}
+2025-09-13 11:30:23 | INFO | Message received from author: Diana
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 15, 'Bob': 8}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:23 | INFO | Message received from author: Bob
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 6, 'Alice': 13, 'Charlie': 6, 'Diana': 15, 'Bob': 9}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:23 | INFO | Message received from author: Eve
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 7, 'Alice': 13, 'Charlie': 6, 'Diana': 15, 'Bob': 9}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Bob', 'city': 'BOSTON', 'age': '33'}
+2025-09-13 11:30:23 | INFO | Message received from author: Bob
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 7, 'Alice': 13, 'Charlie': 6, 'Diana': 15, 'Bob': 10}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice', 'city': 'PORTLAND', 'age': '33'}
+2025-09-13 11:30:23 | INFO | Message received from author: Alice
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 7, 'Alice': 14, 'Charlie': 6, 'Diana': 15, 'Bob': 10}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Eve', 'city': 'BOSTON', 'age': '41'}
+2025-09-13 11:30:23 | INFO | Message received from author: Eve
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 8, 'Alice': 14, 'Charlie': 6, 'Diana': 15, 'Bob': 10}
+2025-09-13 11:30:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:23 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:23 | INFO | Message received from author: Alice
+2025-09-13 11:30:23 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 6, 'Diana': 15, 'Bob': 10}
+2025-09-13 11:30:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:24 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'HUSTON', 'age': '46'}
+2025-09-13 11:30:24 | INFO | Message received from author: Bob
+2025-09-13 11:30:24 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 6, 'Diana': 15, 'Bob': 11}
+2025-09-13 11:30:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'city': 'PORTLAND', 'age': '55'}
+2025-09-13 11:30:25 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie', 'city': 'PORTLAND', 'age': '55'}
+2025-09-13 11:30:25 | INFO | Message received from author: Charlie
+2025-09-13 11:30:25 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 7, 'Diana': 15, 'Bob': 11}
+2025-09-13 11:30:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'city': 'PORTLAND', 'age': '52'}
+2025-09-13 11:30:26 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana', 'city': 'PORTLAND', 'age': '52'}
+2025-09-13 11:30:26 | INFO | Message received from author: Diana
+2025-09-13 11:30:26 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 7, 'Diana': 16, 'Bob': 11}
+2025-09-13 11:30:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob', 'city': 'BOSTON', 'age': '46'}
+2025-09-13 11:30:27 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Bob', 'city': 'BOSTON', 'age': '46'}
+2025-09-13 11:30:27 | INFO | Message received from author: Bob
+2025-09-13 11:30:27 | INFO | Updated author counts: {'Eve': 8, 'Alice': 15, 'Charlie': 7, 'Diana': 16, 'Bob': 12}
+2025-09-13 11:30:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'BOSTON', 'age': '52'}
+2025-09-13 11:30:28 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'BOSTON', 'age': '52'}
+2025-09-13 11:30:28 | INFO | Message received from author: Alice
+2025-09-13 11:30:28 | INFO | Updated author counts: {'Eve': 8, 'Alice': 16, 'Charlie': 7, 'Diana': 16, 'Bob': 12}
+2025-09-13 11:30:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '46'}
+2025-09-13 11:30:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '46'}
+2025-09-13 11:30:29 | INFO | Message received from author: Alice
+2025-09-13 11:30:29 | INFO | Updated author counts: {'Eve': 8, 'Alice': 17, 'Charlie': 7, 'Diana': 16, 'Bob': 12}
+2025-09-13 11:30:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'city': 'CHICAGO', 'age': '55'}
+2025-09-13 11:30:30 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana', 'city': 'CHICAGO', 'age': '55'}
+2025-09-13 11:30:30 | INFO | Message received from author: Diana
+2025-09-13 11:30:30 | INFO | Updated author counts: {'Eve': 8, 'Alice': 17, 'Charlie': 7, 'Diana': 17, 'Bob': 12}
+2025-09-13 11:30:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 11:30:31 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 11:30:31 | INFO | Message received from author: Alice
+2025-09-13 11:30:31 | INFO | Updated author counts: {'Eve': 8, 'Alice': 18, 'Charlie': 7, 'Diana': 17, 'Bob': 12}
+2025-09-13 11:30:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '52'}
+2025-09-13 11:30:32 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '52'}
+2025-09-13 11:30:32 | INFO | Message received from author: Diana
+2025-09-13 11:30:32 | INFO | Updated author counts: {'Eve': 8, 'Alice': 18, 'Charlie': 7, 'Diana': 18, 'Bob': 12}
+2025-09-13 11:30:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob', 'city': 'CLEVELAND', 'age': '37'}
+2025-09-13 11:30:33 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Bob', 'city': 'CLEVELAND', 'age': '37'}
+2025-09-13 11:30:33 | INFO | Message received from author: Bob
+2025-09-13 11:30:33 | INFO | Updated author counts: {'Eve': 8, 'Alice': 18, 'Charlie': 7, 'Diana': 18, 'Bob': 13}
+2025-09-13 11:30:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:34 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:34 | INFO | Message received from author: Diana
+2025-09-13 11:30:34 | INFO | Updated author counts: {'Eve': 8, 'Alice': 18, 'Charlie': 7, 'Diana': 19, 'Bob': 13}
+2025-09-13 11:30:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:35 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'DETROIT', 'age': '37'}
+2025-09-13 11:30:35 | INFO | Message received from author: Alice
+2025-09-13 11:30:35 | INFO | Updated author counts: {'Eve': 8, 'Alice': 19, 'Charlie': 7, 'Diana': 19, 'Bob': 13}
+2025-09-13 11:30:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve', 'city': 'HUSTON', 'age': '37'}
+2025-09-13 11:30:36 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Eve', 'city': 'HUSTON', 'age': '37'}
+2025-09-13 11:30:36 | INFO | Message received from author: Eve
+2025-09-13 11:30:36 | INFO | Updated author counts: {'Eve': 9, 'Alice': 19, 'Charlie': 7, 'Diana': 19, 'Bob': 13}
+2025-09-13 11:30:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'city': 'PORTLAND', 'age': '33'}
+2025-09-13 11:30:37 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana', 'city': 'PORTLAND', 'age': '33'}
+2025-09-13 11:30:37 | INFO | Message received from author: Diana
+2025-09-13 11:30:37 | INFO | Updated author counts: {'Eve': 9, 'Alice': 19, 'Charlie': 7, 'Diana': 20, 'Bob': 13}
+2025-09-13 11:30:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '48'}
+2025-09-13 11:30:38 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '48'}
+2025-09-13 11:30:38 | INFO | Message received from author: Charlie
+2025-09-13 11:30:38 | INFO | Updated author counts: {'Eve': 9, 'Alice': 19, 'Charlie': 8, 'Diana': 20, 'Bob': 13}
+2025-09-13 11:30:38 | ERROR | Error processing message: name 'match_count' is not defined
+2025-09-13 11:30:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'city': 'BOSTON', 'age': '52'}
+2025-09-13 11:30:39 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie', 'city': 'BOSTON', 'age': '52'}
+2025-09-13 11:30:39 | INFO | Message received from author: Charlie
+2025-09-13 11:30:39 | INFO | Updated author counts: {'Eve': 9, 'Alice': 19, 'Charlie': 9, 'Diana': 20, 'Bob': 13}
+2025-09-13 11:30:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '41'}
+2025-09-13 11:30:40 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '41'}
+2025-09-13 11:30:40 | INFO | Message received from author: Alice
+2025-09-13 11:30:40 | INFO | Updated author counts: {'Eve': 9, 'Alice': 20, 'Charlie': 9, 'Diana': 20, 'Bob': 13}
+2025-09-13 11:30:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'city': 'PORTLAND', 'age': '37'}
+2025-09-13 11:30:41 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana', 'city': 'PORTLAND', 'age': '37'}
+2025-09-13 11:30:41 | INFO | Message received from author: Diana
+2025-09-13 11:30:41 | INFO | Updated author counts: {'Eve': 9, 'Alice': 20, 'Charlie': 9, 'Diana': 21, 'Bob': 13}
+2025-09-13 11:30:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Bob', 'city': 'DETROIT', 'age': '33'}
+2025-09-13 11:30:42 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Bob', 'city': 'DETROIT', 'age': '33'}
+2025-09-13 11:30:42 | INFO | Message received from author: Bob
+2025-09-13 11:30:42 | INFO | Updated author counts: {'Eve': 9, 'Alice': 20, 'Charlie': 9, 'Diana': 21, 'Bob': 14}
+2025-09-13 11:30:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'city': 'NEW YORK', 'age': '37'}
+2025-09-13 11:30:43 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve', 'city': 'NEW YORK', 'age': '37'}
+2025-09-13 11:30:43 | INFO | Message received from author: Eve
+2025-09-13 11:30:43 | INFO | Updated author counts: {'Eve': 10, 'Alice': 20, 'Charlie': 9, 'Diana': 21, 'Bob': 14}
+2025-09-13 11:30:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '46'}
+2025-09-13 11:30:44 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '46'}
+2025-09-13 11:30:44 | INFO | Message received from author: Charlie
+2025-09-13 11:30:44 | INFO | Updated author counts: {'Eve': 10, 'Alice': 20, 'Charlie': 10, 'Diana': 21, 'Bob': 14}
+2025-09-13 11:30:44 | ERROR | Error processing message: name 'match_count' is not defined
+2025-09-13 11:30:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 11:30:45 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 11:30:45 | INFO | Message received from author: Charlie
+2025-09-13 11:30:45 | INFO | Updated author counts: {'Eve': 10, 'Alice': 20, 'Charlie': 11, 'Diana': 21, 'Bob': 14}
+2025-09-13 11:30:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie', 'city': 'HUSTON', 'age': '55'}
+2025-09-13 11:30:48 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie', 'city': 'HUSTON', 'age': '55'}
+2025-09-13 11:30:48 | INFO | Message received from author: Charlie
+2025-09-13 11:30:48 | INFO | Updated author counts: {'Eve': 10, 'Alice': 20, 'Charlie': 12, 'Diana': 21, 'Bob': 14}
+2025-09-13 11:30:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana', 'city': 'PORTLAND', 'age': '46'}
+2025-09-13 11:30:49 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Diana', 'city': 'PORTLAND', 'age': '46'}
+2025-09-13 11:30:49 | INFO | Message received from author: Diana
+2025-09-13 11:30:49 | INFO | Updated author counts: {'Eve': 10, 'Alice': 20, 'Charlie': 12, 'Diana': 22, 'Bob': 14}
+2025-09-13 11:30:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 11:30:50 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 11:30:50 | INFO | Message received from author: Diana
+2025-09-13 11:30:50 | INFO | Updated author counts: {'Eve': 10, 'Alice': 20, 'Charlie': 12, 'Diana': 23, 'Bob': 14}
+2025-09-13 11:30:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'city': 'CHICAGO', 'age': '46'}
+2025-09-13 11:30:51 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve', 'city': 'CHICAGO', 'age': '46'}
+2025-09-13 11:30:51 | INFO | Message received from author: Eve
+2025-09-13 11:30:51 | INFO | Updated author counts: {'Eve': 11, 'Alice': 20, 'Charlie': 12, 'Diana': 23, 'Bob': 14}
+2025-09-13 11:30:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 11:30:52 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Eve', 'city': 'BOSTON', 'age': '55'}
+2025-09-13 11:30:52 | INFO | Message received from author: Eve
+2025-09-13 11:30:52 | INFO | Updated author counts: {'Eve': 12, 'Alice': 20, 'Charlie': 12, 'Diana': 23, 'Bob': 14}
+2025-09-13 11:30:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'city': 'CLEVELAND', 'age': '41'}
+2025-09-13 11:30:53 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve', 'city': 'CLEVELAND', 'age': '41'}
+2025-09-13 11:30:53 | INFO | Message received from author: Eve
+2025-09-13 11:30:53 | INFO | Updated author counts: {'Eve': 13, 'Alice': 20, 'Charlie': 12, 'Diana': 23, 'Bob': 14}
+2025-09-13 11:30:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 11:30:54 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice', 'city': 'BOSTON', 'age': '48'}
+2025-09-13 11:30:54 | INFO | Message received from author: Alice
+2025-09-13 11:30:54 | INFO | Updated author counts: {'Eve': 13, 'Alice': 21, 'Charlie': 12, 'Diana': 23, 'Bob': 14}
+2025-09-13 11:30:54 | WARNING | Consumer interrupted by user.
+2025-09-13 11:30:54 | INFO | Kafka consumer for topic 'buzzline_json' closed.
+2025-09-13 11:30:54 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-09-13 11:30:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'city': 'BOSTON', 'age': '33'}
+2025-09-13 11:30:55 | WARNING | Producer interrupted by user.
+2025-09-13 11:30:55 | INFO | Kafka producer closed.
+2025-09-13 11:30:55 | INFO | END producer.
+2025-09-13 11:42:51 | INFO | Logging to file: logs/project_log.log
+2025-09-13 11:42:51 | INFO | Logging to file: logs/project_log.log
+2025-09-13 11:42:51 | INFO | Log sanitization enabled, personal info removed
+2025-09-13 11:42:51 | INFO | Log sanitization enabled, personal info removed
+2025-09-13 11:42:51 | INFO | Project root: PROJECT_ROOT
+2025-09-13 11:42:51 | INFO | START consumer.
+2025-09-13 11:42:51 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-13 11:42:51 | INFO | Data file: PROJECT_ROOT/data/buzz.json
+2025-09-13 11:42:51 | INFO | START producer.
+2025-09-13 11:42:51 | INFO | Kafka broker address: localhost:9092
+2025-09-13 11:42:51 | INFO | Kafka topic: buzzline_json
+2025-09-13 11:42:51 | INFO | Kafka consumer group id: buzz_group
+2025-09-13 11:42:51 | INFO | Consumer: Topic 'buzzline_json' and group 'buzz_group'...
+2025-09-13 11:42:51 | INFO | Kafka broker address: localhost:9092
+2025-09-13 11:42:51 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
+2025-09-13 11:42:51 | INFO | Kafka consumer created successfully.
+2025-09-13 11:42:51 | INFO | Polling messages from topic 'buzzline_json'...
+2025-09-13 11:42:51 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Qrh-d0XGRZG10zs9dkkQFQ', 'controller_id': 1}
+2025-09-13 11:42:51 | INFO | Kafka topic: buzzline_json
+2025-09-13 11:42:51 | INFO | Message interval: 1 seconds
+2025-09-13 11:42:51 | INFO | Kafka broker address: localhost:9092
