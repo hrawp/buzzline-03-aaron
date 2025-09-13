@@ -186,3 +186,147 @@
 2025-09-10 20:47:32 | INFO | END producer.
 2025-09-10 20:47:34 | WARNING | Consumer interrupted by user.
 2025-09-10 20:47:34 | INFO | Kafka consumer for topic 'smoker_csv' closed.
+2025-09-12 20:15:38 | INFO | Logging to file: logs/project_log.log
+2025-09-12 20:15:38 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 20:15:38 | INFO | Project root: PROJECT_ROOT
+2025-09-12 20:15:38 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-12 20:15:38 | INFO | Data file: PROJECT_ROOT/data/buzz.json
+2025-09-12 20:15:38 | INFO | START producer.
+2025-09-12 20:15:38 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:15:38 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Jw28sOlHQIqcaWciYJTX9w', 'controller_id': 1}
+2025-09-12 20:15:38 | INFO | Kafka topic: buzzline_json
+2025-09-12 20:15:38 | INFO | Message interval: 1 seconds
+2025-09-12 20:15:38 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:15:38 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 20:15:39 | INFO | Kafka producer successfully created.
+2025-09-12 20:15:39 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:15:39 | INFO | Topic 'buzzline_json' created successfully.
+2025-09-12 20:15:39 | INFO | Kafka topic 'buzzline_json' is ready.
+2025-09-12 20:15:39 | INFO | Starting message production to topic 'buzzline_json'...
+2025-09-12 20:15:39 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-12 20:15:39 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-12 20:15:39 | ERROR | Unexpected error in message generation: name 'random' is not defined
+2025-09-12 20:15:39 | INFO | Kafka producer closed.
+2025-09-12 20:17:20 | INFO | Logging to file: logs/project_log.log
+2025-09-12 20:17:20 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 20:17:20 | INFO | Project root: PROJECT_ROOT
+2025-09-12 20:17:20 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-12 20:17:20 | INFO | Data file: PROJECT_ROOT/data/buzz.json
+2025-09-12 20:17:20 | INFO | START producer.
+2025-09-12 20:17:20 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:17:21 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Jw28sOlHQIqcaWciYJTX9w', 'controller_id': 1}
+2025-09-12 20:17:21 | INFO | Kafka topic: buzzline_json
+2025-09-12 20:17:21 | INFO | Message interval: 1 seconds
+2025-09-12 20:17:21 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:17:21 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 20:17:21 | INFO | Kafka producer successfully created.
+2025-09-12 20:17:21 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:17:21 | INFO | Topic 'buzzline_json' already exists. Recreating fresh...
+2025-09-12 20:17:21 | INFO | Requested deletion of topic 'buzzline_json'.
+2025-09-12 20:17:22 | INFO | Topic 'buzzline_json' created successfully.
+2025-09-12 20:17:22 | INFO | Kafka topic 'buzzline_json' is ready.
+2025-09-12 20:17:22 | INFO | Starting message production to topic 'buzzline_json'...
+2025-09-12 20:17:22 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-12 20:17:22 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-12 20:17:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'city': 'CLEVELAND', 'age': '37'}
+2025-09-12 20:17:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice', 'city': 'PORTLAND', 'age': '48'}
+2025-09-12 20:17:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'city': 'CHICAGO', 'age': '48'}
+2025-09-12 20:17:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '55'}
+2025-09-12 20:17:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '55'}
+2025-09-12 20:17:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'city': 'BOSTON', 'age': '52'}
+2025-09-12 20:17:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'city': 'NEW YORK', 'age': '33'}
+2025-09-12 20:17:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'NEW YORK', 'age': '37'}
+2025-09-12 20:17:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'city': 'DETROIT', 'age': '48'}
+2025-09-12 20:17:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '33'}
+2025-09-12 20:17:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'CLEVELAND', 'age': '33'}
+2025-09-12 20:17:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '37'}
+2025-09-12 20:17:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie', 'city': 'NEW YORK', 'age': '46'}
+2025-09-12 20:17:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'CHICAGO', 'age': '48'}
+2025-09-12 20:17:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'city': 'BOSTON', 'age': '55'}
+2025-09-12 20:17:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'city': 'PORTLAND', 'age': '37'}
+2025-09-12 20:17:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'city': 'HUSTON', 'age': '41'}
+2025-09-12 20:17:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'city': 'HUSTON', 'age': '37'}
+2025-09-12 20:17:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'city': 'HUSTON', 'age': '55'}
+2025-09-12 20:17:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'city': 'PORTLAND', 'age': '41'}
+2025-09-12 20:17:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'city': 'NEW YORK', 'age': '52'}
+2025-09-12 20:17:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'city': 'PORTLAND', 'age': '37'}
+2025-09-12 20:17:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'city': 'DETROIT', 'age': '41'}
+2025-09-12 20:17:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'city': 'HUSTON', 'age': '33'}
+2025-09-12 20:17:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'BOSTON', 'age': '33'}
+2025-09-12 20:17:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'DETROIT', 'age': '37'}
+2025-09-12 20:17:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'city': 'DETROIT', 'age': '33'}
+2025-09-12 20:17:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '33'}
+2025-09-12 20:17:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana', 'city': 'NEW YORK', 'age': '52'}
+2025-09-12 20:17:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'city': 'CLEVELAND', 'age': '41'}
+2025-09-12 20:17:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie', 'city': 'CLEVELAND', 'age': '37'}
+2025-09-12 20:17:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'city': 'NEW YORK', 'age': '46'}
+2025-09-12 20:17:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'city': 'BOSTON', 'age': '55'}
+2025-09-12 20:17:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'city': 'CHICAGO', 'age': '48'}
+2025-09-12 20:17:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice', 'city': 'BOSTON', 'age': '52'}
+2025-09-12 20:17:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '48'}
+2025-09-12 20:17:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'city': 'DETROIT', 'age': '55'}
+2025-09-12 20:18:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'city': 'NEW YORK', 'age': '37'}
+2025-09-12 20:18:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '37'}
+2025-09-12 20:18:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'city': 'NEW YORK', 'age': '52'}
+2025-09-12 20:18:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice', 'city': 'BOSTON', 'age': '46'}
+2025-09-12 20:18:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie', 'city': 'CLEVELAND', 'age': '46'}
+2025-09-12 20:18:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'HUSTON', 'age': '46'}
+2025-09-12 20:18:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'city': 'CHICAGO', 'age': '55'}
+2025-09-12 20:18:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'city': 'NEW YORK', 'age': '33'}
+2025-09-12 20:18:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'city': 'DETROIT', 'age': '41'}
+2025-09-12 20:18:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob', 'city': 'BOSTON', 'age': '48'}
+2025-09-12 20:18:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'city': 'BOSTON', 'age': '33'}
+2025-09-12 20:18:10 | WARNING | Producer interrupted by user.
+2025-09-12 20:18:10 | INFO | Kafka producer closed.
+2025-09-12 20:18:10 | INFO | END producer.
+2025-09-12 20:20:14 | INFO | Logging to file: logs/project_log.log
+2025-09-12 20:20:14 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 20:20:15 | INFO | Project root: PROJECT_ROOT
+2025-09-12 20:20:15 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-12 20:20:15 | INFO | Data file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:20:15 | INFO | START producer.
+2025-09-12 20:20:15 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:20:15 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Jw28sOlHQIqcaWciYJTX9w', 'controller_id': 1}
+2025-09-12 20:20:15 | INFO | Kafka topic: smoker_csv
+2025-09-12 20:20:15 | INFO | Message interval: 5 seconds
+2025-09-12 20:20:15 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:20:15 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 20:20:15 | INFO | Kafka producer successfully created.
+2025-09-12 20:20:15 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:20:16 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-12 20:20:16 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-12 20:20:16 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-12 20:20:16 | INFO | Opening data file in read mode: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:20:16 | INFO | Reading data from file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:20:16 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:20:16.333189', 'temperature': 70.4}
+2025-09-12 20:20:21 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:20:21.388630', 'temperature': 70.8}
+2025-09-12 20:20:24 | WARNING | Producer interrupted by user.
+2025-09-12 20:20:24 | INFO | Kafka producer closed.
+2025-09-12 20:20:24 | INFO | END producer.
+2025-09-12 20:38:17 | INFO | Logging to file: logs/project_log.log
+2025-09-12 20:38:17 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 20:38:17 | INFO | Project root: PROJECT_ROOT
+2025-09-12 20:38:17 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-12 20:38:17 | INFO | Data file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:38:17 | INFO | START producer.
+2025-09-12 20:38:17 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:38:18 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Jw28sOlHQIqcaWciYJTX9w', 'controller_id': 1}
+2025-09-12 20:38:18 | INFO | Kafka topic: smoker_csv
+2025-09-12 20:38:18 | INFO | Message interval: 5 seconds
+2025-09-12 20:38:18 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:38:18 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 20:38:18 | INFO | Kafka producer successfully created.
+2025-09-12 20:38:18 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:38:18 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-12 20:38:19 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-12 20:38:21 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-12 20:38:21 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-12 20:38:21 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-12 20:38:21 | INFO | Opening data file in read mode: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:38:21 | INFO | Reading data from file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:38:21 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:38:21.699783', 'temperature': 70.4}
+2025-09-12 20:38:26 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:38:26.703785', 'temperature': 70.8}
+2025-09-12 20:38:31 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:38:31.705372', 'temperature': 71.2}
+2025-09-12 20:38:32 | WARNING | Producer interrupted by user.
+2025-09-12 20:38:32 | INFO | Kafka producer closed.
+2025-09-12 20:38:32 | INFO | END producer.
