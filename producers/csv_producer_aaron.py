@@ -19,6 +19,7 @@ import pathlib  # work with file paths
 import csv  # handle CSV data
 import json  # work with JSON data
 from datetime import datetime  # work with timestamps
+import random
 
 # Import external packages
 from dotenv import load_dotenv
@@ -88,6 +89,8 @@ def generate_messages(file_path: pathlib.Path):
     Yields:
         str: CSV row formatted as a string.
     """
+    heating_element_temp = 380.0  # Starting temperature
+
     while True:
         try:
             logger.info(f"Opening data file in read mode: {DATA_FILE}")
@@ -101,11 +104,22 @@ def generate_messages(file_path: pathlib.Path):
                         logger.error(f"Missing 'temperature' column in row: {row}")
                         continue
 
+                    # Apply ±5°C change
+                    delta = random.choice([-5, 8, -7, 5])
+                    heating_element_temp += delta
+
+                    # Clamp between 320 and 420
+                    heating_element_temp = max(320.0, min(420.0, heating_element_temp))
+
+                    # Round to 2 decimals for realism
+                    heating_element_temp = round(heating_element_temp, 2)
+
                     # Generate a timestamp and prepare the message
                     current_timestamp = datetime.utcnow().isoformat()
                     message = {
                         "timestamp": current_timestamp,
                         "temperature": float(row["temperature"]),
+                        "heating element temperature": heating_element_temp,
                     }
                     logger.debug(f"Generated message: {message}")
                     yield message

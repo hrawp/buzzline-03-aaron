@@ -330,3 +330,40 @@
 2025-09-12 20:38:32 | WARNING | Producer interrupted by user.
 2025-09-12 20:38:32 | INFO | Kafka producer closed.
 2025-09-12 20:38:32 | INFO | END producer.
+2025-09-12 20:57:06 | INFO | Logging to file: logs/project_log.log
+2025-09-12 20:57:06 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 20:57:06 | INFO | Project root: PROJECT_ROOT
+2025-09-12 20:57:06 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-12 20:57:06 | INFO | Data file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:57:06 | INFO | START producer.
+2025-09-12 20:57:06 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:57:06 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'Jw28sOlHQIqcaWciYJTX9w', 'controller_id': 1}
+2025-09-12 20:57:06 | INFO | Kafka topic: smoker_csv
+2025-09-12 20:57:06 | INFO | Message interval: 5 seconds
+2025-09-12 20:57:06 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:57:06 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 20:57:06 | INFO | Kafka producer successfully created.
+2025-09-12 20:57:06 | INFO | Kafka broker address: localhost:9092
+2025-09-12 20:57:07 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-12 20:57:07 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-12 20:57:07 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-12 20:57:07 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-12 20:57:07 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-12 20:57:07 | INFO | Opening data file in read mode: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:57:07 | INFO | Reading data from file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 20:57:07 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:07.865677', 'temperature': 70.4, 'heating_element_temperature': 375.0}
+2025-09-12 20:57:12 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:12.867539', 'temperature': 70.8, 'heating_element_temperature': 370.0}
+2025-09-12 20:57:17 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:17.870081', 'temperature': 71.2, 'heating_element_temperature': 378.0}
+2025-09-12 20:57:24 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:24.366023', 'temperature': 71.6, 'heating_element_temperature': 373.0}
+2025-09-12 20:57:29 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:29.367175', 'temperature': 72.0, 'heating_element_temperature': 378.0}
+2025-09-12 20:57:34 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:34.368452', 'temperature': 72.4, 'heating_element_temperature': 371.0}
+2025-09-12 20:57:39 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:39.369754', 'temperature': 72.8, 'heating_element_temperature': 364.0}
+2025-09-12 20:57:44 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:44.370985', 'temperature': 73.2, 'heating_element_temperature': 357.0}
+2025-09-12 20:57:49 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:49.373294', 'temperature': 73.6, 'heating_element_temperature': 350.0}
+2025-09-12 20:57:54 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:57:54.374692', 'temperature': 74.0, 'heating_element_temperature': 358.0}
+2025-09-12 20:58:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:58:00.748450', 'temperature': 74.4, 'heating_element_temperature': 353.0}
+2025-09-12 20:58:05 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:58:05.751950', 'temperature': 74.8, 'heating_element_temperature': 358.0}
+2025-09-12 20:58:10 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-13T01:58:10.753277', 'temperature': 75.2, 'heating_element_temperature': 353.0}
+2025-09-12 20:58:12 | WARNING | Producer interrupted by user.
+2025-09-12 20:58:12 | INFO | Kafka producer closed.
+2025-09-12 20:58:12 | INFO | END producer.
